@@ -4,7 +4,8 @@ import pandas as pd
 
 # Sample data (you should replace this with your actual data)
 
-premier_league_data = pd.read_csv(r'C:\Users\user\Desktop\epl2020.csv')
+csv_file_path = 'epl2020.csv'
+premier_league_data = pd.read_csv(csv_file_path)
 
 
 
